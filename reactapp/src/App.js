@@ -12,6 +12,8 @@ function App() {
 
 export default App;
 
+// In a dilemma about using componentDidMount or useEffect for this 
+
 //import React, { Component } from 'react';
 
 //export default class App extends Component {
