@@ -1,18 +1,22 @@
-import React from 'react';
-import { Fragment } from 'react';
+import React from "react";
+import { Fragment } from "react";
+import Header from "./components/Layout/Header";
+import Summary from "./components/Layout/Summary/Summary";
 
 function App() {
-    return (
-        <Fragment>
-            <h1>D&D Character Manager</h1>
-        </Fragment>
-    )
-    
+  return (
+    <Fragment>
+      <Header />
+      <main>
+        <Summary />
+      </main>
+    </Fragment>
+  );
 }
 
 export default App;
 
-// In a dilemma about using componentDidMount or useEffect for this 
+// In a dilemma about using componentDidMount or useEffect for this
 
 //import React, { Component } from 'react';
 
